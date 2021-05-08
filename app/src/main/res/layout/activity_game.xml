@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".controllers.GameActivity"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_game_question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:text="Question"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/activity_game_answer_button_0"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.165"
+        android:text="answer1"
+        />
+
+    <Button
+        android:id="@+id/activity_game_answer_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.165"
+        android:text="answer1"
+        />
+
+    <Button
+        android:id="@+id/activity_game_answer_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.165"
+        android:text="answer1"
+        />
+
+    <Button
+        android:id="@+id/activity_game_answer_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.165"
+        android:text="answer1"
+        />
+
+</LinearLayout>
